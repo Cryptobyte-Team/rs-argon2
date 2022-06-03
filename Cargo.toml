@@ -1,0 +1,22 @@
+[package]
+name = "rs-argon2"
+version = "0.0.1"
+description = "Rust Argon2 Implementation"
+authors = ["Cryptobyte"]
+license = "MIT"
+edition = "2018"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = "0.4"
+rand_core = { version = "0.6", features = ["std"] }
+
+[dependencies.neon]
+version = "0.10"
+default-features = false
+features = ["napi-6"]

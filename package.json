@@ -1,0 +1,26 @@
+{
+  "name": "rs-argon2",
+  "version": "0.0.1",
+  "description": "Rust Argon2 Implementation for NodeJS",
+  "main": "index.node",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "build-debug": "npm run build --",
+    "build-release": "npm run build -- --release",
+    "install": "npm run build-release",
+    "test": "cargo test"
+  },
+  "author": "Cryptobyte",
+  "license": "MIT",
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1"
+  },
+  "keywords": [
+    "rust",
+    "argon",
+    "hash"
+  ],
+  "dependencies": {
+    "neon-cli": "^0.10.1"
+  }
+}
