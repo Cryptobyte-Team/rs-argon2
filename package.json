@@ -1,5 +1,5 @@
 {
-  "name": "rs-argon2",
+  "name": "@Cryptobyte-Team/rs-argon2",
   "version": "0.0.1",
   "description": "Rust Argon2 Implementation for NodeJS",
   "main": "index.node",
@@ -22,5 +22,9 @@
   ],
   "dependencies": {
     "neon-cli": "^0.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cryptobyte-Team/rs-argon2.git"
   }
 }
