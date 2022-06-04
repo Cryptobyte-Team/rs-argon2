@@ -18,7 +18,8 @@
   "keywords": [
     "rust",
     "argon",
-    "hash"
+    "hash",
+    "node"
   ],
   "dependencies": {
     "neon-cli": "^0.10.1"

@@ -1,0 +1,30 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "rs-argon2-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptobyte-Team/rs-argon2.git"
+  },
+  "keywords": [
+    "rust",
+    "argon",
+    "hash",
+    "node"
+  ],
+  "author": "Cryptobyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cryptobyte-Team/rs-argon2/issues"
+  },
+  "homepage": "https://github.com/Cryptobyte-Team/rs-argon2#readme",
+  "dependencies": {
+    "argon2": "^0.28.5"
+  }
+}
